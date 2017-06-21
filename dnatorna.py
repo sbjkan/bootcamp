@@ -3,7 +3,7 @@ Convert DNA sequences to RNA.
 """
 
 def rna(seq):
-    """Convert a DNA sequence to RNA."""
+    """Convert a DNA sequence to RNA. Output sequence has the same capitalization."""
 
     #Determine if the original sequence was uppercase
     seq_upper = seq.isupper()
@@ -20,7 +20,7 @@ def rna(seq):
         return seq
 
 def reverse_rna_complement(seq):
-    """Convert a DNA sequence into its reverse complement as RNA."""
+    """Convert a DNA sequence into its reverse complement as RNA. Output sequence has the same capitalization."""
 
     #Determine if the original sequence was uppercase
     seq_upper = seq.isupper()
